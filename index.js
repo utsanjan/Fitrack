@@ -8,10 +8,10 @@ const FILE_PATH = "./data.json";
 
 const makeCommit = (n) => {
   if (n === 0) return simpleGit().push();
-  const x = random.int(0, 54);
-  const y = random.int(0, 6);
+  const x = random.int(0, 67);
+  const y = random.int(0, 9);
   const DATE = moment()
-    .subtract(2, "y")
+    .subtract(1, "y")
     .add(1, "d")
     .add(x, "w")
     .add(y, "d")
@@ -28,4 +28,4 @@ const makeCommit = (n) => {
   });
 };
 
-makeCommit(120);
+makeCommit(200);

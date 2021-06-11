@@ -4,4 +4,4 @@
 src="https://www.utsanjan.ml/assets/img/logo.png"/>
 </a><br><br>Asset files for my Portfolio WebPage.<br>
 You can visit my Portfolio to know <br>
-more about me:</h5> [utsanjan.ml](https://www.utsanjan.ml/)
+more about me: www.utsanjan.ml</h5>

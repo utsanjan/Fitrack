@@ -3108,6 +3108,12 @@ figcaption {
   background-color: #0f0823;
   -webkit-transition-property: none;
   transition-property: none;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  width: auto;
+  height: auto;
   color: #fff;
   font-weight: 700;
   text-align: center;
@@ -3124,8 +3130,8 @@ figcaption {
 }
 
 .button-primary.full-width {
+  width: auto;
   display: block;
-  width: 100%;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
@@ -3827,9 +3833,9 @@ figcaption {
 }
 
 .button-container {
-  display: inline-block;
-  padding: 3px;
   border-radius: 80px;
+  display: inline-block;
+  padding: 3px; width: max-content;
   background-image: linear-gradient(65deg, #edb8ff, #6148ff);
   box-shadow: 0 24px 34px 0 rgba(74, 58, 255, 0.05), 0 9px 24px 0 rgba(0, 0, 0, 0.45);
   -webkit-transition: -webkit-transform 350ms ease;
@@ -3847,7 +3853,7 @@ figcaption {
 }
 
 .button-container.full-width {
-  width: 100%;
+  width: max-content;
 }
 
 .button-container.full-width.mg-top-16px {
@@ -4161,7 +4167,7 @@ figcaption {
 
 .form-background {
   min-height: 640px;
-  padding: 76px 44px;
+  padding: 50px 50px;
   border-radius: 50px;
   background-color: #0f0823;
 }
@@ -4209,7 +4215,7 @@ figcaption {
 }
 
 .text-area {
-  min-height: 176px;
+  min-height: 270px;
   margin-bottom: 0px;
   padding: 24px 24px 16px;
   border: 0px solid #000;
@@ -6100,6 +6106,7 @@ figcaption {
 #utsanjan {
     width: 100%;
     z-index: 10;
+    background-color: #1F1F1F;
 }
 
 #w-node-_976f08fa-4bd7-5cb4-b53d-2187f5f1194b-0634c740 {
@@ -6218,7 +6225,9 @@ figcaption {
 body {
     margin: 3rem 0 0 0;
     font-family: var(--body-font);
-    background-color: var(--black-color);
+    background-image: linear-gradient(#1F1F1F,#121212,#1F1F1F);
+    height: 100%;
+    background-repeat: repeat;
     color: var(--white-color);
     font-weight: 700;
     -ms-overflow-style: none;
@@ -6321,7 +6330,7 @@ img {
     height: 0.1875rem;
     left: 0.125rem;
     top: 2.125rem;
-    background-color: var(--first-color);
+    background-color: #5f54FC;
 }
 
 .nav__logo {
@@ -6351,6 +6360,7 @@ img {
     display: -ms-grid;
     display: grid;
     z-index: 1;
+    background-color: #1F1F1F;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: max-content max-content;
@@ -6379,18 +6389,6 @@ img {
 
 .home__skill {
     font-size: var(--h2-font-size);
-}
-
-.home__button {
-    display: inline-block;
-    margin-top: 1.5rem;
-    font-size: .75rem;
-    text-decoration: none;
-    color: var(--white-color);
-    padding: .625rem 1rem;
-    border-radius: 10px;
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--black-color)), to(var(--first-color)));
-    background-image: linear-gradient(to right, var(--black-color), var(--first-color));
 }
 
 .home__img {

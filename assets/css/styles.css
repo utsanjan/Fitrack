@@ -4216,6 +4216,7 @@ figcaption {
 
 .text-area {
   min-width: 100%;
+  max-width: 100%;
   min-height: 270px;
   margin-bottom: 0px;
   padding: 24px 24px 16px;

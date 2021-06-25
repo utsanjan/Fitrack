@@ -6277,8 +6277,8 @@ img {
 /*Nav*/
 
 .navbar {
+    width: 95%;
     height: 4rem;
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
